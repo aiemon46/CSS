@@ -1,0 +1,8 @@
+h1 {
+    border-style: solid; border-width: 10px; border-color: rgb(8, 19, 184) #00cec9  red #6c5ce7;
+    margin: 100px 200px 50px 200px; padding: 36px 30px 10px 40px;
+}
+div{
+    background: #00cec9; width: 200px; height: 200px;
+    margin: 0 auto;
+}

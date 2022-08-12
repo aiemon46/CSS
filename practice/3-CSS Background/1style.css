@@ -1,0 +1,8 @@
+ 
+#header{
+    color: green; background-color: rgb(255, 255, 255);  padding: 20px; 
+   
+}
+.body{
+    background-color: rgb(175, 175, 199); padding: 12px;  background-size: 200px 200px;   background-repeat: no-repeat;
+    background-image: url(img/spinner.gif); background-position: center center; background-attachment: fixed;}

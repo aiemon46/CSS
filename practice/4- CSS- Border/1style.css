@@ -1,0 +1,18 @@
+.p{
+    border: 5px solid red;
+}
+.q{
+    border:5px dotted green;
+}
+.r{
+    border: 5px dashed aqua;
+}
+.s{
+    border: 5px double rgb(25, 255, 5);
+}
+.t{
+    border: 5px solid #ddd; border-width: 20px;
+}
+.u{
+    border-style: solid; border-width: 10px; border-color: #ddd #00cec9 #d63031#6c5ce7
+}

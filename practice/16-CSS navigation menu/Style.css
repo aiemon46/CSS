@@ -1,0 +1,13 @@
+ul{
+    margin:0; padding:0; list-style-type: none; text-align: center; background-color: rgb(68, 0, 255); float: left;
+border-radius: 15px;}
+li{
+    display: block; padding:15px; margin:15px;
+}
+a:link{
+    color: rgb(238, 255, 0); text-decoration: none; border-radius:5px;background-color: rgb(203, 0, 221); border-radius: 5px;
+    padding: 10px;  }
+a:hover{
+    background-color: aqua; color: rgb(208, 0, 173); transition: .5s;
+}
+ 

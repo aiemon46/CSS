@@ -1,0 +1,13 @@
+body{
+    background-image: url(ggg.jpeg);background-repeat: no-repeat; 
+}
+div{
+    width: 200px; height: 200px; background-color: blue;  margin: 10px;
+
+}
+div.one{
+    opacity: .3; color: aqua; text-align:center; margin: 100px; padding: 100px; border-radius: 50px;
+}
+ h2{
+  font-size: 40px;
+ }

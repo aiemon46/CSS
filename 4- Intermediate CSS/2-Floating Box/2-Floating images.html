@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          h1{
+              text-align: center;
+         
+          }
+          img{
+              margin-right: 20px;
+              margin-left: 20px;
+          }
+          p{
+              margin-left: 20px;
+              text-align: justify;
+          }
+          .float-left{
+              float: left;
+          }
+          .float-right{
+              float: right;
+          }
+          .clearfix::after{
+              content: ".";
+              display: block;
+              clear: both;
+              visibility: hidden;
+          }
+    </style>
+</head>
+<body>
+     <h1>Faisal Masque</h1>
+     <div class="clearfix" >
+         <img src="fm.jpg" class="float-left" alt="Faisal masque" height="250px" width="250px">
+         <p>The Faisal Mosque (Urdu: فیصل مسجد, romanized: faisal masjid) is a mosque located in Islamabad,
+            Pakistan. It is the sixth-largest mosque in the world and the largest within South Asia,
+            located on the foothills of Margalla Hills in Pakistan's capital city of Islamabad. 
+            The mosque features a contemporary design consisting of eight sides of concrete shell and is inspired by the design of a typical Bedouin tent.</p>
+     </div>
+     <div class="clearfix">
+     <img src="fm.jpg" class="float-right" alt="Faisal masque" height="250px" width="250px">
+     <p>The Faisal Mosque (Urdu: فیصل مسجد, romanized: faisal masjid) is a mosque located in Islamabad,
+        Pakistan. It is the sixth-largest mosque in the world and the largest within South Asia,
+        located on the foothills of Margalla Hills in Pakistan's capital city of Islamabad. 
+        The mosque features a contemporary design consisting of eight sides of concrete shell and is inspired by the design of a typical Bedouin tent.</p>
+    </div>
+    <div class="clearfix">
+     <img src="fm.jpg" class="float-left" alt="Faisal masque" height="250px" width="250px">
+     <img src="fm.jpg" class="float-left" alt="Faisal masque" height="250px" width="250px">
+     <img src="fm.jpg" class="float-left" alt="Faisal masque" height="250px" width="250px">
+    </div>
+
+</body>
+</html>

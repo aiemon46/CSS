@@ -1,0 +1,64 @@
+header, body, article, aside, footer{
+    display: block;
+}
+header, footer{
+    padding: 0px;
+}
+body{
+    text-align: center;
+    margin: 0 auto;
+    width: 940px;
+}
+aside.aleft{
+    float:left;
+}
+aside.aright{
+    float:right;
+}
+ section{
+     float: left;
+     width: 560px;
+     padding-left: 10px;
+     padding-right:10px;
+     border-left: 2px dotted;
+     border-right: 2px dotted;
+     text-align: justify;
+   
+ }
+ footer{
+     clear: both !important;
+     width: 940px; 
+     height:100px;
+     padding: 10px;
+ }
+ nav{
+    text-align: center;
+ }
+ nav ul{
+     list-style-type: none;
+      text-decoration: none;
+     background-color:aquamarine;
+     padding: 20px;
+     border: green;
+     
+ }
+ a:link{
+     text-decoration: none;
+     background-color: yellow
+ }
+ ul{
+     display:
+ }
+ header{
+     text-align: center;
+ }
+ nav li{
+      display: inline-block;
+      margin:  0 0 0 50px;
+      width: 100px;
+      list-style-type:  none;
+ }
+ li{
+     text-align: center;
+     list-style-type: none;
+ }

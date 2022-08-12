@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Box</title>
+    <style type="text/css">
+      body{
+          color: aqua;
+      }
+
+      div{
+          border-style: solid;
+          border-color: blue;
+          border-width: 4px;
+          border-top-style: dashed;
+          border-bottom-style: dotted;
+      }
+      *{
+          background-color: black;
+          height: 40px;
+          width: 800px;
+          margin-bottom: 10px;
+          padding-left: 10px;
+      }
+      .blue_border{
+          border-color: blue;
+          border-width: 10px;
+          border-top-style: groove ;
+          border-bottom-style:dashed;
+        
+         
+      }
+      .red_border{
+          border-color: aqua;
+          border-width: 5px;
+          border-top-style: ridge ;
+          border-bottom-style:ridge;
+      }
+      .green_border{
+          border-color:chocolate;
+          border-width: 15px;
+          border-top-style:inset ;
+          border-bottom-style:inset
+      }
+    </style>
+</head>
+<body>
+<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatem tempora minima illo perspiciatis neque rem! Facere, officiis?</div>
+<div class="blue_border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatem tempora minima illo perspiciatis neque rem! Facere, officiis?</div>
+<div class="red_border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatem tempora minima illo perspiciatis neque rem! Facere, officiis?</div>
+<div class="green_border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatem tempora minima illo perspiciatis neque rem! Facere, officiis?</div>
+</body>
+</html>

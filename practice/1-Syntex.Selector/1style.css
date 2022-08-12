@@ -1,0 +1,16 @@
+h1{
+    color: red; font-size: 50px;
+}
+p{
+    color: green;
+}
+#header{
+    background-color: red; padding: 10px; font-size: 18px;
+}
+.body{
+    font-size: 18px; background-color: rgb(80, 25, 25); padding: 20px;
+    color: aqua;
+}
+h1, p, #header, .body{
+    text-align: center;
+}

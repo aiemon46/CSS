@@ -1,0 +1,7 @@
+div{
+    background-color: aqua; width: 200px; height: 200px; 
+    position: sticky;  bottom: 100px;
+}
+div.a{
+    width: 100px; height: 100px; background-color: red; position: sticky; top: 0px;
+}
